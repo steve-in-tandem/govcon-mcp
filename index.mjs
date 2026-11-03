@@ -13,17 +13,39 @@ import path from 'node:path';
 import os from 'node:os';
 import { fileURLToPath } from 'node:url';
 import { existsSync, readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { gunzipSync } from 'node:zlib';
+import vm from 'node:vm';
+import { createRequire } from 'node:module';
 
 const REMOTE_MCP_ENDPOINT =
   process.env.INTANDEM_MCP_URL || 'https://www.getintandem.io/api/mcp';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const bundledCoreGzPath = path.resolve(__dirname, './core.gz');
 const localCorePath = path.resolve(__dirname, '../src/mcp/govconMcpCore.ts');
 
 let localHandler = null;
 
 async function getLocalHandler() {
   if (localHandler !== null) return localHandler;
+  if (existsSync(bundledCoreGzPath)) {
+    try {
+      const code = gunzipSync(readFileSync(bundledCoreGzPath)).toString('utf8');
+      const mod = { exports: {} };
+      const req = createRequire(import.meta.url);
+      const fn = vm.runInThisContext(
+        '(function(exports, require, module) {' + code + '\n})',
+        { filename: 'mcp-core.cjs' }
+      );
+      fn(mod.exports, req, mod);
+      if (mod.exports && typeof mod.exports.handleMcpJsonRpc === 'function') {
+        localHandler = mod.exports.handleMcpJsonRpc;
+        return localHandler;
+      }
+    } catch {
+      // Fallback below
+    }
+  }
   if (existsSync(localCorePath)) {
     try {
       const { createJiti } = await import('jiti');
