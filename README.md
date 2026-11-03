@@ -1,4 +1,4 @@
-# `@getintandem/govcon-mcp` — Government Contracting & FAR Reference MCP Server
+# `@intandem/govcon-mcp` — Government Contracting & FAR Reference MCP Server
 
 Official **Model Context Protocol (MCP)** server powered by the [Intandem Government Contracting Resource Center](https://www.getintandem.io/government-contracting-resources).
 
@@ -13,7 +13,15 @@ Gives Claude, Cursor, ChatGPT, Windsurf, VS Code, and custom AI agents instant, 
 
 ---
 
-## Option 1: Zero-Install Remote HTTP MCP Endpoint (Recommended)
+## Option 1: One-Command Auto-Setup (Recommended)
+
+Run this in your terminal to automatically add the Intandem GovCon MCP server to Claude Code, Claude Desktop, Cursor, and Windsurf:
+
+```bash
+npx @intandem/govcon-mcp mcp add
+```
+
+## Option 2: Zero-Install Remote HTTP MCP Endpoint
 
 Add the remote Streamable HTTP endpoint directly to your MCP client configuration:
 
@@ -27,7 +35,7 @@ Add the remote Streamable HTTP endpoint directly to your MCP client configuratio
 }
 ```
 
-## Option 2: Local Stdio via `npx`
+## Option 3: Local Stdio via `npx`
 
 For stdio-based MCP clients (Claude Desktop, Cursor, Windsurf):
 
@@ -36,7 +44,7 @@ For stdio-based MCP clients (Claude Desktop, Cursor, Windsurf):
   "mcpServers": {
     "intandem-govcon": {
       "command": "npx",
-      "args": ["-y", "@getintandem/govcon-mcp"]
+      "args": ["-y", "@intandem/govcon-mcp"]
     }
   }
 }

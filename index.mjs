@@ -4,7 +4,7 @@
  *
  * Supports:
  * 1. Local in-memory execution (when run inside the repository via `jiti` or bundled build).
- * 2. Zero-dependency remote bridge to `https://www.getintandem.io/api/mcp` when installed standalone via `npx -y @getintandem/govcon-mcp`.
+ * 2. Zero-dependency remote bridge to `https://www.getintandem.io/api/mcp` when installed standalone via `npx -y @intandem/govcon-mcp`.
  *
  * Protocol: JSON-RPC 2.0 over newline-delimited stdin/stdout (Model Context Protocol).
  */
@@ -75,7 +75,7 @@ async function processRpcMessage(rawLine) {
       headers: {
         'Content-Type': 'application/json',
         Accept: 'application/json',
-        'User-Agent': '@getintandem/govcon-mcp/1.2.0',
+        'User-Agent': '@intandem/govcon-mcp/1.2.0',
       },
       body: JSON.stringify(parsed),
     });
@@ -142,7 +142,7 @@ if (
 
   const serverEntry = {
     command: 'npx',
-    args: ['-y', '@getintandem/govcon-mcp'],
+    args: ['-y', '@intandem/govcon-mcp'],
   };
 
   const configured = [];
@@ -192,8 +192,8 @@ Intandem Government Contracting Resource Center — MCP Server (v1.2.0)
 https://www.getintandem.io/government-contracting-resources
 
 Usage:
-  npx @getintandem/govcon-mcp mcp add     Auto-configure Claude, Cursor & Windsurf
-  npx -y @getintandem/govcon-mcp          Start MCP server over stdio
+  npx @intandem/govcon-mcp mcp add        Auto-configure Claude, Cursor & Windsurf
+  npx -y @intandem/govcon-mcp             Start MCP server over stdio
   node mcp-server/index.mjs --self-test   Run automated JSON-RPC self-test
 
 Remote Streamable HTTP Endpoint:
