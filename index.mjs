@@ -138,6 +138,11 @@ if (
       file: path.join(home, '.codeium', 'windsurf', 'mcp_config.json'),
       createIfParentExists: true,
     },
+    {
+      name: 'Antigravity',
+      file: path.join(home, '.gemini', 'antigravity', 'mcp_config.json'),
+      createIfParentExists: true,
+    },
   ];
 
   const serverEntry = {
