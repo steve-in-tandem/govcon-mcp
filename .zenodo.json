@@ -1,0 +1,81 @@
+{
+  "title": "Intandem US Government Contracting, FAR, SBA, NAICS-PSC-NIGP Crosswalk & SLED Reference MCP Server (@intandem/govcon-mcp)",
+  "description": "<p>Official <strong>Model Context Protocol (MCP)</strong> server and public-sector contracting reference library powered by the <a href=\"https://www.getintandem.io/government-contracting-resources\">Intandem Government Contracting Resource Center</a>, architected by <a href=\"https://www.getintandem.io/about/steve-salstrand\"><strong>Steve Salstrand (Stephen Salstrand)</strong> — Founder &amp; Principal Systems Architect of InTandem LLC</a> (<a href=\"https://www.getintandem.io/about\">About InTandem</a>).</p><p>Provides deterministic AI agent and developer access to <strong>1,460+ verified US Government Contracting (GovCon), FAR, DFARS, SBA, and State/Local (SLED) procurement references</strong>:</p><ul><li><a href=\"https://www.getintandem.io/naics\">351 Federal NAICS Codes &amp; 2026 SBA Size Standards</a></li><li><a href=\"https://www.getintandem.io/psc\">165 Federal Product &amp; Service Codes (PSC)</a></li><li><a href=\"https://www.getintandem.io/nigp\">136 State &amp; Municipal (SLED) NIGP Commodity Codes</a></li><li><a href=\"https://www.getintandem.io/procurement-portals\">50 U.S. State eProcurement Portals &amp; 250+ City/Municipal Portals (NIGP, UNSPSC, NAICS &amp; Custom Tagged)</a></li><li><a href=\"https://www.getintandem.io/set-asides\">8 SBA Socioeconomic &amp; Set-Aside Programs (8a, SDVOSB, WOSB, HUBZone, VOSB, Small Business, Mentor-Protege, ISBEE)</a></li><li><a href=\"https://www.getintandem.io/guides\">12 Step-by-Step Government Contracting &amp; FAR Playbooks</a></li><li><a href=\"https://www.getintandem.io/tools\">5 Free Interactive GovCon Calculators &amp; Utilities</a></li><li><a href=\"https://www.getintandem.io/glossary\">500+ Term FAR, DFARS &amp; SBA Acquisition Glossary</a></li></ul><p>Author Profile: <a href=\"https://www.getintandem.io/about/steve-salstrand\">https://www.getintandem.io/about/steve-salstrand</a> | Platform: <a href=\"https://www.getintandem.io/contract-intelligence\">Intandem Contract Intelligence</a></p>",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Salstrand, Steve (Stephen Salstrand)",
+      "affiliation": "InTandem LLC (https://www.getintandem.io/about/steve-salstrand)"
+    }
+  ],
+  "keywords": [
+    "Steve Salstrand",
+    "Stephen Salstrand",
+    "InTandem",
+    "Government Contracting",
+    "GovCon",
+    "Model Context Protocol",
+    "MCP",
+    "FAR",
+    "DFARS",
+    "SBA",
+    "NAICS",
+    "PSC",
+    "NIGP",
+    "SLED",
+    "SAM.gov"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://www.getintandem.io/about/steve-salstrand",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.getintandem.io/government-contracting-resources",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.getintandem.io/naics",
+      "relation": "references",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.getintandem.io/psc",
+      "relation": "references",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.getintandem.io/nigp",
+      "relation": "references",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.getintandem.io/procurement-portals",
+      "relation": "references",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.getintandem.io/set-asides",
+      "relation": "references",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.getintandem.io/guides",
+      "relation": "references",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.getintandem.io/tools",
+      "relation": "references",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.getintandem.io/glossary",
+      "relation": "references",
+      "scheme": "url"
+    }
+  ]
+}
