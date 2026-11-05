@@ -1,0 +1,15 @@
+{
+  "name": "@intandem/govcon-mcp",
+  "version": "1.3.0",
+  "license": "MIT",
+  "exports": "./index.mjs",
+  "publish": {
+    "include": [
+      "index.mjs",
+      "README.md",
+      "LICENSE",
+      "jsr.json"
+    ]
+  }
+}
+

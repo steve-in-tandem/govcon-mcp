@@ -1,0 +1,65 @@
+{
+  "name": "@intandem/govcon-mcp",
+  "version": "1.3.0",
+  "mcpName": "io.github.steve-in-tandem/govcon-mcp",
+  "description": "Official Model Context Protocol (MCP) server for the Intandem Government Contracting Resource Center — 351 NAICS size standards, 165 Federal PSC codes, 136 SLED NIGP codes, 50-state & 250+ city procurement portals, 8 SBA set-aside programs, 12 FAR playbooks, and 500+ GovCon glossary definitions.",
+  "type": "module",
+  "bin": {
+    "govcon-mcp": "index.mjs"
+  },
+  "files": [
+    "index.mjs",
+    "core.gz",
+    "README.md",
+    "LICENSE",
+    "server.json",
+    "smithery.yaml",
+    ".zenodo.json"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "government-contracting",
+    "govcon",
+    "sam-gov",
+    "naics",
+    "psc",
+    "nigp",
+    "sba",
+    "sdvosb",
+    "8a",
+    "wosb",
+    "hubzone",
+    "far",
+    "dfars",
+    "sled",
+    "procurement",
+    "intandem"
+  ],
+  "homepage": "https://www.getintandem.io/government-contracting-resources#mcp-server",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steve-in-tandem/govcon-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/steve-in-tandem/govcon-mcp/issues"
+  },
+  "author": {
+    "name": "Steve Salstrand (Stephen Salstrand)",
+    "url": "https://www.getintandem.io/about/steve-salstrand"
+  },
+  "contributors": [
+    {
+      "name": "Steve Salstrand",
+      "url": "https://www.getintandem.io/about/steve-salstrand"
+    },
+    {
+      "name": "InTandem LLC",
+      "url": "https://www.getintandem.io/about"
+    }
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
