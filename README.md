@@ -1,6 +1,6 @@
 # `@intandem/govcon-mcp` — Government Contracting & FAR Reference MCP Server
 
-[![mcptry](https://mcptry.com/badge/io.github.steve-in-tandem/govcon-mcp)](https://mcptry.com/servers/io.github.steve-in-tandem/govcon-mcp)
+[![mcptry](https://mcptry.com/badge/io.github.steve-in-tandem/govcon-mcp)](https://mcptry.com/servers/io.github.steve-in-tandem/govcon-mcp) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23989928.svg)](https://doi.org/10.5281/zenodo.23989928)
 
 Official **Model Context Protocol (MCP)** server powered by the [Intandem Government Contracting Resource Center](https://www.getintandem.io/government-contracting-resources).
 
@@ -80,6 +80,9 @@ Architected and maintained by [**Steve Salstrand (Stephen Salstrand)** — Found
 
 - **Executive Biography & Systems Architecture Profile**: [https://www.getintandem.io/about/steve-salstrand](https://www.getintandem.io/about/steve-salstrand)
 - **About InTandem LLC**: [https://www.getintandem.io/about](https://www.getintandem.io/about)
+- **CERN Zenodo DOI Record**: [https://zenodo.org/records/23989928](https://zenodo.org/records/23989928) (`10.5281/zenodo.23989928`)
+- **Hugging Face Dataset**: [US GovCon NAICS/PSC/NIGP/SLED Dataset (2026)](https://huggingface.co/datasets/InTandem-Steve/us-govcon-naics-psc-nigp-sled-2026)
+- **PyPI Python SDK**: [intandem-govcon](https://pypi.org/project/intandem-govcon/)
 - **LinkedIn**: [Stephen Salstrand](https://www.linkedin.com/in/stephensalstrand/)
 - **Hugging Face**: [InTandem-Steve (Steve Salstrand)](https://huggingface.co/InTandem-Steve)
 
@@ -90,8 +93,9 @@ Architected and maintained by [**Steve Salstrand (Stephen Salstrand)** — Found
   author       = {Salstrand, Steve (Stephen Salstrand)},
   title        = {{Intandem Government Contracting & FAR Reference MCP Server (@intandem/govcon-mcp)}},
   year         = {2026},
-  publisher    = {InTandem LLC},
-  url          = {https://www.getintandem.io/government-contracting-resources},
+  publisher    = {Zenodo / InTandem LLC},
+  doi          = {10.5281/zenodo.23989928},
+  url          = {https://doi.org/10.5281/zenodo.23989928},
   note         = {Author profile: https://www.getintandem.io/about/steve-salstrand}
 }
 ```
