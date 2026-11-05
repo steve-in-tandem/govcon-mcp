@@ -97,7 +97,7 @@ async function processRpcMessage(rawLine) {
       headers: {
         'Content-Type': 'application/json',
         Accept: 'application/json',
-        'User-Agent': '@intandem/govcon-mcp/1.2.0',
+        'User-Agent': '@intandem/govcon-mcp/1.3.0',
       },
       body: JSON.stringify(parsed),
     });
