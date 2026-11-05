@@ -1,5 +1,7 @@
 # `@intandem/govcon-mcp` — Government Contracting & FAR Reference MCP Server
 
+[![mcptry](https://mcptry.com/badge/io.github.steve-in-tandem/govcon-mcp)](https://mcptry.com/servers/io.github.steve-in-tandem/govcon-mcp)
+
 Official **Model Context Protocol (MCP)** server powered by the [Intandem Government Contracting Resource Center](https://www.getintandem.io/government-contracting-resources).
 
 Gives Claude, Cursor, ChatGPT, Windsurf, VS Code, Antigravity, and custom AI agents instant, deterministic access to **1,460+ verified public-sector contracting references** (2026 FAR, DFARS, 13 CFR, SBA, and 50-State SLED):
