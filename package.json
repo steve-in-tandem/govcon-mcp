@@ -1,6 +1,7 @@
 {
   "name": "@intandem/govcon-mcp",
   "version": "1.2.2",
+  "mcpName": "io.getintandem/govcon-mcp",
   "description": "Official Model Context Protocol (MCP) server for the Intandem Government Contracting Resource Center — 351 NAICS size standards, 165 Federal PSC codes, 136 SLED NIGP codes, 50-state & 250+ city procurement portals, 8 SBA set-aside programs, 12 FAR playbooks, and 500+ GovCon glossary definitions.",
   "type": "module",
   "bin": {
@@ -9,7 +10,10 @@
   "files": [
     "index.mjs",
     "core.gz",
-    "README.md"
+    "README.md",
+    "LICENSE",
+    "server.json",
+    "smithery.yaml"
   ],
   "keywords": [
     "mcp",
@@ -32,6 +36,13 @@
     "intandem"
   ],
   "homepage": "https://www.getintandem.io/government-contracting-resources#mcp-server",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steve-in-tandem/govcon-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/steve-in-tandem/govcon-mcp/issues"
+  },
   "author": "Intandem (https://www.getintandem.io)",
   "license": "MIT",
   "engines": {

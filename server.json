@@ -1,0 +1,29 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "name": "io.getintandem/govcon-mcp",
+  "title": "Intandem Government Contracting & FAR Reference MCP",
+  "description": "1,460+ verified GovCon references: NAICS/PSC/NIGP cross-walks, 50-state & city portals, SBA set-asides & FAR.",
+  "version": "1.2.2",
+  "websiteUrl": "https://www.getintandem.io/government-contracting-resources",
+  "repository": {
+    "url": "https://github.com/steve-in-tandem/govcon-mcp",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "@intandem/govcon-mcp",
+      "version": "1.2.2",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.getintandem.io/api/mcp"
+    }
+  ]
+}
