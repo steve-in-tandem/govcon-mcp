@@ -3,8 +3,14 @@
   "name": "io.github.steve-in-tandem/govcon-mcp",
   "title": "Intandem Government Contracting & FAR Reference MCP",
   "description": "1,460+ US GovCon references: NAICS/PSC/NIGP codes, 50-state & city portals, SBA set-asides & FAR",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "websiteUrl": "https://www.getintandem.io/government-contracting-resources",
+  "icons": [
+    {
+      "src": "https://www.getintandem.io/favicon.svg",
+      "mimeType": "image/svg+xml"
+    }
+  ],
   "repository": {
     "url": "https://github.com/steve-in-tandem/govcon-mcp",
     "source": "github"
