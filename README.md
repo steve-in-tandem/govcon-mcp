@@ -79,6 +79,7 @@ Every tool response includes canonical verification links back to the underlying
 Architected and maintained by [**Steve Salstrand (Stephen Salstrand)** — Founder & Principal Systems Architect of InTandem](https://www.getintandem.io/about/steve-salstrand) (CAGE: `21QN8`, San Antonio, Texas).
 
 - **Executive Biography & Systems Architecture Profile**: [https://www.getintandem.io/about/steve-salstrand](https://www.getintandem.io/about/steve-salstrand)
+- **ORCID Researcher iD**: [https://orcid.org/0009-0000-0309-8435](https://orcid.org/0009-0000-0309-8435)
 - **About InTandem LLC**: [https://www.getintandem.io/about](https://www.getintandem.io/about)
 - **CERN Zenodo DOI Record**: [https://zenodo.org/records/23989928](https://zenodo.org/records/23989928) (`10.5281/zenodo.23989928`)
 - **Hugging Face Dataset**: [US GovCon NAICS/PSC/NIGP/SLED Dataset (2026)](https://huggingface.co/datasets/InTandem-Steve/us-govcon-naics-psc-nigp-sled-2026)
