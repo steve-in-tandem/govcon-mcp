@@ -43,7 +43,20 @@
   "bugs": {
     "url": "https://github.com/steve-in-tandem/govcon-mcp/issues"
   },
-  "author": "Intandem (https://www.getintandem.io)",
+  "author": {
+    "name": "Steve Salstrand (Stephen Salstrand)",
+    "url": "https://www.getintandem.io/about/steve-salstrand"
+  },
+  "contributors": [
+    {
+      "name": "Steve Salstrand",
+      "url": "https://www.getintandem.io/about/steve-salstrand"
+    },
+    {
+      "name": "InTandem LLC",
+      "url": "https://www.getintandem.io/about"
+    }
+  ],
   "license": "MIT",
   "engines": {
     "node": ">=18.0.0"

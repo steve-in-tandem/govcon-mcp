@@ -70,6 +70,28 @@ Every tool response includes canonical verification links back to the underlying
 
 ---
 
-## About Intandem
+## About Intandem & Author
 
-[Intandem](https://www.getintandem.io) scans 100,000+ active federal ([SAM.gov](https://www.getintandem.io/contract-intelligence)), 50-state, and 3,000+ local municipal, county, school district, and utility portals daily—matching solicitations to your NAICS/PSC/NIGP codes and SBA certifications, shredding 100-page RFPs with [Tandy AI](https://www.getintandem.io/tandy) inside the [Bid Workspace](https://www.getintandem.io/bid-workspace), and finding compliant SBA [Teaming Partners](https://www.getintandem.io/teaming).
+[Intandem](https://www.getintandem.io) ([About Intandem](https://www.getintandem.io/about)) scans 100,000+ active federal ([SAM.gov](https://www.getintandem.io/contract-intelligence)), 50-state, and 3,000+ local municipal, county, school district, and utility portals daily—matching solicitations to your NAICS/PSC/NIGP codes and SBA certifications, shredding 100-page RFPs with [Tandy AI](https://www.getintandem.io/tandy) inside the [Bid Workspace](https://www.getintandem.io/bid-workspace), and finding compliant SBA [Teaming Partners](https://www.getintandem.io/teaming).
+
+### Author & Systems Architecture
+
+Architected and maintained by [**Steve Salstrand (Stephen Salstrand)** — Founder & Principal Systems Architect of InTandem](https://www.getintandem.io/about/steve-salstrand) (CAGE: `21QN8`, San Antonio, Texas).
+
+- **Executive Biography & Systems Architecture Profile**: [https://www.getintandem.io/about/steve-salstrand](https://www.getintandem.io/about/steve-salstrand)
+- **About InTandem LLC**: [https://www.getintandem.io/about](https://www.getintandem.io/about)
+- **LinkedIn**: [Stephen Salstrand](https://www.linkedin.com/in/stephensalstrand/)
+- **Hugging Face**: [InTandem-Steve (Steve Salstrand)](https://huggingface.co/InTandem-Steve)
+
+### Citation (BibTeX)
+
+```bibtex
+@software{salstrand2026intandem_govcon_mcp,
+  author       = {Salstrand, Steve (Stephen Salstrand)},
+  title        = {{Intandem Government Contracting & FAR Reference MCP Server (@intandem/govcon-mcp)}},
+  year         = {2026},
+  publisher    = {InTandem LLC},
+  url          = {https://www.getintandem.io/government-contracting-resources},
+  note         = {Author profile: https://www.getintandem.io/about/steve-salstrand}
+}
+```
